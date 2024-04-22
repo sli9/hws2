@@ -34,12 +34,7 @@ export const message0: MessageType = {
         name: 'Ivan',  // можно менять
     },
     message: {
-        text: 'Hello, she didn’t do anything and rested all day, how are you?' +
-            'Hello, she didn’t do anything and rested all day, how are you?' +
-            'Hello, she didn’t do anything and rested all day, how are you?' +
-            'Hello, she didn’t do anything and rested all day, how are you?' +
-            'Hello, she didn’t do anything and rested all day, how are you?' +
-            'Hello, she didn’t do anything and rested all day, how are you?', // можно менять
+        text: 'Hello, she didn’t do anything and rested all day, how are you?' , // можно менять
         time: '22:00', // можно менять
     },
 }
@@ -67,7 +62,7 @@ const HW1 = () => {
                 </div>
 
                 {/*для автоматической проверки дз (не менять)*/}
-                {/*<MessageSender M={Message} />*/}
+                <MessageSender M={Message} />
             </div>
         </div>
     )
