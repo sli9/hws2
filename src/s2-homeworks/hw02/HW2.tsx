@@ -55,7 +55,7 @@ function HW2() {
         const newAffairs = deleteAffair(affairs, _id)
         setAffairs(newAffairs)
     }
-    console.log(affairs)
+
     return (
         <div id={'hw2'}>
             <div className={s2.hwTitle}>Homework #2</div>
